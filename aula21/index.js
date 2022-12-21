@@ -11,7 +11,7 @@
         Operadores lógicos
 
 && -> AND -> E  -> Todas expressões precisam ser verdadeiras para retornar true
-|| -> OR  -> OU -> Só uma das expreções precisam ser verdadeiras para retornar true
+|| -> OR  -> OU -> Só uma das expreções precisam ser verdadeiras para retornar true, só retorna false se todas forem false
 !  -> NOT -> NÃO -> Vai negar o valor, invertendo ele 
 
 */
