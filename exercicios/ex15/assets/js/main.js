@@ -1,6 +1,6 @@
 function Calculadora() {
     this.display = document.querySelector('.display');
-  
+
     this.inicia = () => {
         this.cliqueBotoes();
         this.pressionaEnter();
@@ -41,7 +41,12 @@ function Calculadora() {
             if (el.classList.contains('btn-eq')) this.realizaConta();
         });
     };
-    this.btnParaDisplay = (valor) => this.display.value += valor;
+    
+    this.btnParaDisplay = (valor) => {
+        this.display.value += valor;
+        this.display.focus();
+    }
+
 }
 
 const calculadora = new Calculadora();
