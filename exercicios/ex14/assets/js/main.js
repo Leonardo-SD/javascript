@@ -4,7 +4,6 @@ function criaCalculadora() {
         btnClear: document.querySelector('.btn-clear'),
 
 
-
         inicia() {
             this.cliqueBotoes();
             this.pressionaEnter();
